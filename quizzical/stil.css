@@ -1,0 +1,70 @@
+.input{
+    cursor:pointer;
+}
+.bb{
+    float: right;
+}
+.Bb{
+    float: left;
+}
+.gg{
+    float: unset;
+    text-decoration: underline;
+    font-size:3rem;
+}
+.pitanje{
+    background-color:#ccc;
+}
+.input{
+    border-radius: 50%;
+    outline-color:#fff;
+}
+.control{
+    outline:none;
+    box-shadow: none;
+    border-radius: 50%;
+}
+.selektovan{
+    background: linear-gradient(90deg, #5ae9c0, #4a5ab1, #d9ff00);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+.display-none{
+    display:none;
+}
+#volume{
+    width:3rem;
+    height:3rem;
+    cursor:pointer;
+    position:absolute;
+    top:2rem;
+    right:2rem;
+    font-size:2rem;
+    text-align: center;
+    border-radius:50% 50%;
+    z-index: 99999;
+}
+#volume:hover{
+    background:#eee;
+    color:#666;
+}
